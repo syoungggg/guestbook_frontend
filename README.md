@@ -1,5 +1,4 @@
 # Guestbook Frontend
----
 
 ### **FE (React + Vite + TypeScript)**
 
