@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Guestbook Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### **FE (React + Vite + TypeScript)**
 
-Currently, two official plugins are available:
+## 1. 프로젝트 개요
+사용자(글 작성), 관리자(승인/거절/삭제) 간단한 방명록 프로젝트
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 사용자 화면
+  - 글 작성 폼(이름/메시지 -> API 호출)
+  - 공개 목록 페이지(승인된 글만 표시, 검식 + 페이지네이션)
+- 관리자 화면
+  - PENDING 글 목록 불러오기
+  - 승인/거절/삭제 버튼 -> API 호출
 
-## Expanding the ESLint configuration
+## 2. 환경 설치/실행 방법
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## 3. 백엔드 서버
+https://3163f0d2-35ec-46f1-b957-a9c692b9d0a1-00-6h53kt82dewp.pike.replit.dev/
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 4. 주요 기능
+사용자 화면
+- 글 작성 폼
+  - 이름 입력(30자 이하) / 메시지 입력(500자 이하)
+  - 글 작성 시 상태 : PENDING
+  - 작성 완료 후 안내 메시지 표시 : "관리자 승인을 기다려주세요"
+- 공개 글 목록 페이지
+  - 승인된 글(APPROVED)만 표시
+  - 메시지 검색 기능
+  - 페이지네이션 : 한 페이지에 5개씩 표시, 총 페이지 수 자동 계산
+  - 최신 글이 상단에 표시
+관리자 화면
+- 상단 체크박스로 일반화면 <-> 관리자 화면 전환
+- PENDING 글 관리
+  - 모든 글(승인/거절/대기) 표시
+  - 상대 배지 표시(PENDING/APPROVED/REJECTED)
+- 페이지 네이션
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 5. 화면
+![작성 화면]("C:\Users\허서영\Pictures\방명록 화면.png")
+![관리자 화면]("C:\Users\허서영\Pictures\방명록 화면.png")
+![목록 화면]("C:\Users\허서영\Pictures\방명록 화면.png")
