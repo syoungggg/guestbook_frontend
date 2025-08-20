@@ -29,6 +29,6 @@ https://3163f0d2-35ec-46f1-b957-a9c692b9d0a1-00-6h53kt82dewp.pike.replit.dev/
 - 페이지 네이션
 
 ## 4. 화면
-![작성 화면](https://github.com/syoungggg/repo/raw/main/스크린샷 2025-08-20 171814.png)
+![작성 화면](https://github.com/syoungggg/repo/raw/main/스크린샷2025-08-20171814.png)
 ![관리자 화면](스크린샷 2025-08-20 172642.png)
 ![목록 화면](스크린샷 2025-08-20 172708.png)
