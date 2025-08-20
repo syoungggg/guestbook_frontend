@@ -37,6 +37,6 @@ https://3163f0d2-35ec-46f1-b957-a9c692b9d0a1-00-6h53kt82dewp.pike.replit.dev/
 - 페이지 네이션
 
 ## 5. 화면
-![작성 화면]("C:\Users\허서영\Pictures\방명록 화면.png")
-![관리자 화면]("C:\Users\허서영\Pictures\방명록 화면.png")
-![목록 화면]("C:\Users\허서영\Pictures\방명록 화면.png")
+![작성 화면]("./screenshots/방명록화면.png")
+![관리자 화면]("/screenshots/스크린샷2025-08-20172642.png")
+![목록 화면]("/screenshots/ddd.png")
