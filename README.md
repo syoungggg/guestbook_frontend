@@ -8,13 +8,17 @@
 
 사용자는 글 작성, 관리자는 글을 승인/거절/삭제할 수 있으며, 승인된 글만 공개 목록에 표시됩니다.
 
+
 ---
+
 
 # 2. 환경 설치/실행 방법
 백엔드 서버
 https://3163f0d2-35ec-46f1-b957-a9c692b9d0a1-00-6h53kt82dewp.pike.replit.dev/
 
+
 ---
+
 
 # 3. 주요 기능
 **사용자 화면**
@@ -35,23 +39,28 @@ https://3163f0d2-35ec-46f1-b957-a9c692b9d0a1-00-6h53kt82dewp.pike.replit.dev/
   - 상대 배지 표시(PENDING/APPROVED/REJECTED)
 - 페이지 네이션
 
+
  ---
+
 
 # ⚠️ 참고사항
 - 일부 환경에서는 프론트엔드 서버를 실행해도 접속이 원할하지 않을 수 있습니다.
 - 서버를 새로고침할 경우, 이전에 승인된 글이 사라지는 오류가 있습니다.
+
+  
 ---
+
 
 # 4. 화면
 
-###작성화면
+작성화면
 
 <img width="477" height="735" alt="Image" src="https://github.com/user-attachments/assets/5d530fcb-99f2-4a92-90e4-c5adad16132b" />
 
-###관리자화면
+관리자화면
 
 <img width="477" height="542" alt="Image" src="https://github.com/user-attachments/assets/1689e35a-b6c0-447d-a300-f2375fb48c7e" />
 
-###목록 화면
+목록 화면
 
 <img width="405" height="736" alt="Image" src="https://github.com/user-attachments/assets/4e67f9b4-aa63-4e84-a407-9824ed1efe28" />
